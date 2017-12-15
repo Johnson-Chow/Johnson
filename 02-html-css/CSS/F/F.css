@@ -1,0 +1,85 @@
+.container{
+display: flex;
+flex-direction: column;
+}
+
+section{
+    text-align: center;
+    color: white;
+    align-content: center;
+}
+
+.image {
+    position: relative;
+    width: 1280px;
+    background-color: #8fbc8f;
+
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7 )
+    
+}
+
+.Name{
+    font-size: 30px;
+    width:20%;
+    height: 10%;
+    align-self: center;
+    margin: 0;
+}
+
+.Subname{ 
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #7fff00;
+    align-self: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.list1{
+    background-color: #8fbc8f;
+    width:1280px;
+    padding:20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.list2{
+    background-color: #8fbc8f;
+    width:1280px;
+    padding:20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list p{
+    color: grey;
+}
+
+
+
+
+
+
