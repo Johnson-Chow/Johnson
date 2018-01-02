@@ -1,0 +1,71 @@
+.navbar-toggler{
+  background-color: white
+}
+.background-1{
+  height: 7vh;
+}
+.navbar {
+  padding:0 100px;
+}
+.navStyle a{
+  font-weight: bold;
+  font-size: 14px;
+  color: #666666;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 22px;
+  color: #666666
+}
+
+/*Crazy font*/
+.facebook {
+    position: relative;
+}
+.facebook:before {
+    content: "\f082";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color:#3b5998;
+    font-size: 20px;
+    position: absolute;
+    top:0;
+}
+
+.email {
+    position: relative;
+}
+.email:before {
+    content: "\f003";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #3b5998;
+    font-size: 20px;
+    position: absolute;
+    top:0;
+}
+
+.background-2{
+  background: url('file:///Users/Wenwen/Johnson-Chow/Personal%20Project/Photo/nutrients.jpeg');
+  height: 80vh;
+  background-blend-mode: overlay;
+  color: #ff6600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   font-weight: bold;
+}
+
+.nutrients {
+  width: 30vw;;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+
+

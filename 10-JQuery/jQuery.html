@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script src='file:///Users/Wenwen/Johnson-Chow/01-html-css/js/jquery.min.js'></script>
+
+</head>
+
+<body>
+<form id="form-event-form">
+    <input type='text' name="name" placeholder="Name" />
+    <input type='text' name="email" placeholder="Email" />
+    <input type='submit' class="btn btn-primary" />
+</form>
+<script type='text/javascript' src="D.js">
+    $('#form-event-form').submit(function (event) {
+        event.preventDefault(); // VERY IMPORTANT. To stop the form from submitting
+        var name = event.target.name.value;
+        var email = event.target.email.value;
+        if(name.length<50){
+        alert("Form submitted name:" + name + ", email:" + email);
+    }});
+</script>
+
+
+</body>
+
+</html>

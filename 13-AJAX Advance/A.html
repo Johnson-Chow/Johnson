@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="A.js"></script>
+    <script src="jquery.min.js"></script>
+</head>
+
+
+
+<body>
+
+<p>It is photgraph day</p>
+<button>click me</button>
+<input type='form' , placeholder="email" , value=''>
+
+    <script type='text/javascript'>
+        $(function (endpoint, value) {
+            $.get('data.json',
+                {
+                    
+                }
+            ).done(function (data) {
+                callbak(data);
+            }).fail(function (data) {
+                console.log("This function will be run if the ajax if failed");
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

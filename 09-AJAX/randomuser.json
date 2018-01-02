@@ -1,0 +1,47 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "amauri",
+                "last": "das neves"
+            },
+            "location": {
+                "street": "6949 avenida da legalidade",
+                "city": "rio claro",
+                "state": "pará",
+                "postcode": 27044
+            },
+            "email": "amauri.dasneves@example.com",
+            "login": {
+                "username": "ticklishbear802",
+                "password": "zong",
+                "salt": "oc0xVaqv",
+                "md5": "d1a442884e4b83b5b21e351353ec5ff8",
+                "sha1": "595d9862a6b152d834cc5fd57ff38694fbca98ab",
+                "sha256": "87c374a2e61c3746977c0f19bd7b33a0d395c79985a5781a459b2187326f5e1e"
+            },
+            "dob": "1954-04-13 08:25:44",
+            "registered": "2002-04-08 22:26:13",
+            "phone": "(07) 3213-8892",
+            "cell": "(61) 4941-6329",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/48.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+            },
+            "nat": "BR"
+        }
+    ],
+    "info": {
+        "seed": "bc9f10fddedf9212",
+        "results": 1,
+        "page": 1,
+        "version": "1.1"
+    }
+}
